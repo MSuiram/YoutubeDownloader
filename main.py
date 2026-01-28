@@ -11,7 +11,7 @@ def download(url):
 video_download = []
 invalid_url = []
 
-with open("fichier.txt", "r", encoding="utf-8") as file:
+with open("url.txt", "r", encoding="utf-8") as file:
     video_no_download = file.readlines()
     print(video_no_download)
 
